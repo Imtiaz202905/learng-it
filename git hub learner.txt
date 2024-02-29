@@ -1,0 +1,21 @@
+# First, ensure you have Git installed on your local machine
+
+# Initialize a new Git repository locally
+git init
+
+# Create a new Python script (example.py) or use an existing one
+# Add some code to your Python script
+
+# Add your Python script to the staging area
+git add example.py
+
+# Commit your changes
+git commit -m "Initial commit: Add example.py"
+
+# Go to GitHub and create a new repository with the name you prefer (e.g., my-python-project)
+
+# Set the remote origin to your GitHub repository
+git remote add origin https://github.com/yourusername/my-python-project.git
+
+# Push your local repository to GitHub
+git push -u origin master
